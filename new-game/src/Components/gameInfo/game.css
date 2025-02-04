@@ -52,6 +52,16 @@
     margin: auto;
     gap: 10px;
 }
-.boxes img{
-    margin: 50px, 50px;
+img{
+    margin: 200px, 200px;
+}
+.title img{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 130px;
 }
