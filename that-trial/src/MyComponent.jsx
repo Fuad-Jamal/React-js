@@ -13,7 +13,7 @@ export const MyComponent = () => {
         setAge(age +1)
     }
     const toggleStatus = () => {
-        
+        setEmployee(!employee)
     }
 
   return (
