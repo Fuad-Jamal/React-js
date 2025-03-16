@@ -9,7 +9,7 @@ function App() {
       <MyComponent />
       <Counter />
     </>
-  );
+  )
 }
 
 export default App;
