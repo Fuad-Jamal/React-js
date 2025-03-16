@@ -12,10 +12,15 @@ export const Counter = () => {
     }
 
     const reset = ()=> {
-        
+     setCount(0)   
     }
 
   return (
-    <div>Counter</div>
+    <div className='container'>
+      <p className='display'>{count}</p>
+      <button className='btn' onClick={decrement}>Decrement</button>
+      <button className='btn' onClick={reset}>Reset</button>
+      <button className='btn' onClick={increment}>Increment</button>
+    </div>
   );
 }
