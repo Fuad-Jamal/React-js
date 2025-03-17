@@ -1,7 +1,14 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 
 export const Counter = () => {
     const [count, setCount] = useState(0)
+
+    useEffect(() => {
+      console.log('The count is:', count)
+      return () =>{
+        console.log('guess who is next')
+      }
+    },[count])
 
     const increment = () => {
         setCount(count + 1)
