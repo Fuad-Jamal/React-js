@@ -6,7 +6,7 @@ export const Counter = () => {
     useEffect(() => {
       console.log('The count is:', count)
       return () =>{
-        console.log('guess who is next')
+        console.log('the following is')
       }
     },[count])
 
